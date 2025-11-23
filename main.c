@@ -1,6 +1,10 @@
 #include "mcc_generated_files/system/system.h"
 #include <string.h>
 
+//Use MPLAB MCC to make a project
+//Add MSSP / I2C Host periferal using interrupts
+//Set Chip frequency to ~16MHz and ensure the I2C speed in the MCC window is ~2-400 kHz.
+
 int main(void)
 {
     SYSTEM_Initialize();
@@ -124,4 +128,5 @@ int main(void)
     while(1)
     {
     }    
+
 }
